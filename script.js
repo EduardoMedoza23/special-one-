@@ -32,7 +32,7 @@ animate();
 
 // --- Mensajes secuenciales y eventos ---
 document.addEventListener("DOMContentLoaded", () => {
-    const msgs = "Hola María- eres una persona muy especial para mi- te quiero con todo mi corazón- todo mi amor es tuyo- esta vez no te puedes quedar sin tus flores amrillas- te mereces esto y mucho mas -esto es para ti espero te guste - y es importante que sepas- que son mas que flores".split("-");
+    const msgs = "Hola María- Eres una persona muy especial para mi- Te quiero con todo mi corazón- Todo mi amor es tuyo- Esta vez no te puedes quedar sin tus flores amarillas- Te mereces esto y mucho más -Esto es para ti- De parte de Edu- Espero que te guste - Y es importante que sepas- Que son más que flores".split("-");
     const msgEl = document.getElementById("message");
     const giftContainer = document.querySelector(".gift-container");
     const btn = document.getElementById("openGiftBtn");
@@ -105,3 +105,4 @@ document.addEventListener("DOMContentLoaded", () => {
     showMessage();
 
 });
+
