@@ -1,2 +1,0 @@
-# special-one-
-Para ella
